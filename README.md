@@ -33,26 +33,3 @@ This project functions as an e-commerce platform offering products and services 
 * **Key Features:**
     * **For Users:** Users can *browse and purchase pet food and supplements* for dogs and cats. They can also *book various pet services* (like grooming) by filling out forms and adding items to a shopping cart. A dedicated section allows users to *book appointments with veterinarians*.
     * **For Admins:** Administrators can *manage product inventory, add new services, modify or cancel bookings*, and *manage doctor profiles* (adding new doctors and editing their information).
-
-## **Technical Setup & Running Projects Locally**
-
-Since these projects are not deployed online, here’s how you can get them running on your local machine using **XAMPP**:
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone [Your GitHub Repository URL]
-    ```
-2.  **Install XAMPP:** If you don't have it already, *download and install XAMPP*. This will provide you with an Apache web server, PHP, and MySQL.
-3.  **Place Project Files:** Copy each project folder (e.g., `HotelMoon`, `Online-Study-Platform`, `Petcare System`) into the `htdocs` directory of your XAMPP installation (e.g., `C:\xampp\htdocs\`).
-4.  **Database Setup with phpMyAdmin:**
-    * Start Apache and MySQL modules from the XAMPP control panel.
-    * Open your web browser and go to `http://localhost/phpmyadmin`.
-    * For each project, you'll typically find a `.sql` file within its folder. *Create a new database* in phpMyAdmin (e.g., `hotelmoon_db`, `online_study_db`, `petcare_db`) and *import the corresponding `.sql` file* into it.
-    * **Important:** You'll need to *update the database connection details* (like database name, username, password) in each project's PHP configuration files. Look for files named `config.php` or `db_connect.php` within each project folder and adjust them to match your local MySQL setup (e.g., default username 'root`, no password).
-5.  **Access Projects:** Open your web browser and navigate to `http://localhost/[project_folder_name]` (for example, `http://localhost/HotelMoon`) to view each project.
-
-## **Connect**
-
-If you have any questions or would like to connect regarding these projects, feel free to reach out via my GitHub profile.
-
-* **GitHub Profile:** [Link to your GitHub profile]
