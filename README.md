@@ -3,7 +3,7 @@ Welcome to a collection of my web development projects! These projects were buil
 Projects Overview
 Let's take a look at what each project does:
 
-1. HotelMoon (CSE370 Project)
+**HotelMoon (CSE370 Project)**
 This project is a web application designed to handle hotel management and bookings, created as part of the CSE370 course.
 
 Technologies Used: PHP (Backend), HTML, CSS (Frontend), MySQL (Database managed with XAMPP/phpMyAdmin)
@@ -14,7 +14,7 @@ User Side: Users can browse different room types, make new bookings with persona
 
 Admin Side: Administrators have the ability to create new room listings, adjust room prices, manage and assign existing bookings, and cancel reservations.
 
-2. Online-Study-Platform (CSE470 Project)
+**Online-Study-Platform (CSE470 Project)**
 Developed for the CSE470 course, this project is an online learning platform connecting students, teachers, and administrative users.
 
 Technologies Used: PHP (Backend), HTML, CSS (Frontend), MySQL (Database managed with XAMPP/phpMyAdmin)
@@ -27,7 +27,7 @@ For Teachers: Teachers can register, view enrolled student information, create q
 
 For Admins: Administrators hold comprehensive control, including creating classes, assigning teachers, and managing all system data from the backend. Admins can also perform all teacher functionalities, such as quiz creation and management.
 
-3. Petcare System (CSE471 Project)
+**Petcare System (CSE471 Project)**
 This project functions as an e-commerce platform offering products and services tailored for pet owners, developed during the CSE471 course.
 
 Technologies Used: PHP (Backend), HTML, CSS (Frontend), MySQL (Database managed with XAMPP/phpMyAdmin)
